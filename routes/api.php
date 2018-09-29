@@ -12,7 +12,8 @@ use Illuminate\Http\Request;
 | is assigned the "api" middleware group. Enjoy building your API!
 |
 */
+/** @var Dingo\Api\Routing\Router $api*/
+$api = app('Dingo\Api\Routing\Router');
+require_once __DIR__.'/api/v1/routes.php';
 
-Route::middleware('auth:api')->get('/user', function (Request $request) {
-    return $request->user();
-});
+
