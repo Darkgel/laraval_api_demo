@@ -18,7 +18,7 @@ $api->version('v1', ['namespace' => 'App\Api\Controllers\V1'], function (Router 
         return 'hello world';
     });
 
-    $api->group(['namespace' => 'Post'], function (Router $api){
+    $api->group(['namespace' => 'Blog'], function (Router $api){
         $api->get('posts/{id}', 'PostController@show');
         $api->get('posts', 'PostController@index');
         $api->get('post/test', 'PostController@test');

@@ -1,6 +1,6 @@
 <?php
 /**
- * 该应用中所有api Controller的基类
+ * 该应用中所有Api Controller的基类
  *
  * Created by PhpStorm.
  * User: shiweihua
@@ -12,7 +12,7 @@ namespace App\Http\Controllers;
 
 use Dingo\Api\Routing\Helpers;
 
-class ApiController extends Controller
+class ApiController extends AppController
 {
     use Helpers;
 }

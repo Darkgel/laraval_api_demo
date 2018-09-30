@@ -6,7 +6,7 @@
  * Time: 16:03
  */
 
-namespace app\Console\JWTFixes;
+namespace App\Console\JWTFixes;
 
 
 class JWTGenerateCommand extends \Tymon\JWTAuth\Commands\JWTGenerateCommand

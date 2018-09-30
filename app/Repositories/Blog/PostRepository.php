@@ -1,16 +1,21 @@
 <?php
 /**
- *  * Created by PhpStorm.
+ * Repository层
+ * 职责：
+ * 1.增删改查操作（通常增删改的逻辑比较单一，而查则会有多种情况，将各种查询逻辑在此处实现），辅助Model层
+ *
+ * Created by PhpStorm.
  * User: shiweihua
  * Date: 2018/9/29
  * Time: 17:12
  */
 
-namespace app\Repositories;
+namespace App\Repositories\Blog;
 
 use App\Models\Db1\Post;
+use App\Repositories\AppRepository;
 
-class PostRepository
+class PostRepository extends AppRepository
 {
     private $post;
 

@@ -1,6 +1,6 @@
 <?php
 /**
- * 该Post子分类下的Controller基类
+ * 该Blog子分类下的Controller基类
  *
  * Created by PhpStorm.
  * User: shiweihua
@@ -8,7 +8,7 @@
  * Time: 17:06
  */
 
-namespace app\Api\Controllers\V1\Post;
+namespace App\Api\Controllers\V1\Blog;
 
 use App\Api\Controllers\V1\V1Controller;
 
